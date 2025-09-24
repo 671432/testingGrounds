@@ -1,0 +1,7 @@
+canvas{
+  display: block;
+  box-sizing: border-box;  
+  border: solid 1px white;
+  background-color: #81007b;
+/*   width: 100%; */
+}
