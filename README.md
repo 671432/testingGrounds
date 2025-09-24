@@ -12,5 +12,7 @@ basically, a bunch of projects inside the testing grounds project.
 # Sources
 
 Background follows mouse movement: https://gsap.com/community/forums/topic/17959-move-content-on-canvas-background-following-mouse-over/page/2/
+
 Commenter: OSUblake
+
 Posted: March 19, 2018
