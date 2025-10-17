@@ -18,7 +18,9 @@ automate the following process:
 48911 -> BF 0F -> 0F BF <- (the second items ID (has to be upgrade like rune, sigil, mark, etc), convert from decimal to hex, switch the 2 number pairs)
 
 02 01 6a 2f 00 00               <- (first items game link, base64 to hex converter)
+
                40       00 00   <- (add "40" on the 6th pair, add second items swapped hex values, add "00 00" to the end)
+               
 02 01 6a 2f 00 40 0F BF 00 00   <- (add second items swapped hex values)
 
 [&AgFqLwBAD78AAA==]             <- (add the games elements "[&...]")
