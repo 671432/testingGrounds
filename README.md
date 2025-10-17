@@ -12,6 +12,7 @@ basically, a bunch of projects inside the testing grounds project.
 # Planned tests
 
 automate the following process:
+
 [&AgFqLwAA] <- (the first items game link found on the wiki page)
 
 48911 -> BF 0F -> 0F BF <- (the second items ID (has to be upgrade like rune, sigil, mark, etc), convert from decimal to hex, switch the 2 number pairs)
@@ -20,7 +21,7 @@ automate the following process:
                40       00 00   <- (add "40" on the 6th pair, add second items swapped hex values, add "00 00" to the end)
 02 01 6a 2f 00 40 0F BF 00 00   <- (add second items swapped hex values)
 
-[&AgFqLwBAD78AAA==]
+[&AgFqLwBAD78AAA==]             <- (add the games elements "[&...]")
 
 -------------------
 
