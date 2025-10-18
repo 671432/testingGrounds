@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+}
+
+.game-link-combiner-wrapper {
+  display: flex;
+  justify-content: center; /* horizontal centering */
+  width: 100%;
+}
+
+.game-link-combiner {
+  max-width: 24rem; /* keeps your form layout consistent */
+  width: 100%;
+}
+
+.form {
+  width: 24rem;
+}
+
+.form div {
+  display: flex;
+  align-items: center; /* vertical align label/input/desc */
+  gap: 8px; /* spacing between elements */
+  margin-bottom: 4px;
+}
+
+.form label {
+  flex: 0 0 170px; /* label only as wide as content */
+}
+
+.form input {
+  flex: 0 0 180px; /* or whatever fixed width you like */
+}
+
+.inline-desc {
+  flex: 1 1 auto; /* takes remaining space */
+  font-size: 0.85rem;
+  color: #666;
+  white-space: nowrap; /* keeps description on same line */
+}
+
+p.intro {
+  font-size: 0.8rem;
+  color: #666;
+  width: 24rem;
+}
+
+p.result {
+  width: 24rem;
+  font-size: 14pt;
+  display: inline-block;
+  margin: 0;
+  padding: 8px 8px;
+  border-radius: 8px;
+  background: rgb(88, 65, 0);
+  color: rgb(255, 255, 255);
+}
+
+p.result samp {
+  font-family: monospace;
+  color: #bdbdbd;
+}
+
+.copy-button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  font: inherit;
+  color: inherit;
+}
+
+.copied-popup {
+  margin-left: 8px;
+  font-size: 0.8rem;
+  color: #ffffff;
+  animation: fadeOut 2.5s ease-in-out;
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.copy-button:hover samp {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+}
+
+.preview {
+  margin: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
