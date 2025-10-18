@@ -19,4 +19,8 @@ Posted: March 19, 2018
 
 ---
 
-Game Link Combiner: https://jsfiddle.net/fffam/cg3njdu6/
+Game Link Combiner: https://www.reddit.com/r/Guildwars2/comments/3h734z/does_anyone_know_how_to_combine_chat_codes/
+
+Commenter: u/fffam
+
+Posted: August 16, 2015
